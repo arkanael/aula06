@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 -Modelagem de Entidades", "0 -Modelagem de Entidades", "{6AFA5CC5-9FC3-4D39-9884-4CAA7A2DC476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Sistema", "1 - Sistema", "{83958426-56D6-462A-8626-424D147609D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Camada de Regras de Negócios", "1.2 - Camada de Regras de Negócios", "{FA0EFF53-0F78-48FA-91FD-F28DE330DBFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Camada de Acesso a Dados", "1.3 - Camada de Acesso a Dados", "{8C4C4826-EE6B-4E1A-9507-1FB453C87317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Camada de Apresentação", "1.1 - Camada de Apresentação", "{CFFF8877-DE59-4C47-A7A5-CFFD3C80A8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula06.Entidades", "aula06.Entidades\aula06.Entidades.csproj", "{DA05E39B-AF2B-48CA-B680-7E32E85F462F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA0EFF53-0F78-48FA-91FD-F28DE330DBFE} = {83958426-56D6-462A-8626-424D147609D7}
+		{8C4C4826-EE6B-4E1A-9507-1FB453C87317} = {83958426-56D6-462A-8626-424D147609D7}
+		{CFFF8877-DE59-4C47-A7A5-CFFD3C80A8DF} = {83958426-56D6-462A-8626-424D147609D7}
+		{DA05E39B-AF2B-48CA-B680-7E32E85F462F} = {6AFA5CC5-9FC3-4D39-9884-4CAA7A2DC476}
+	EndGlobalSection
+EndGlobal
