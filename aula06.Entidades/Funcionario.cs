@@ -14,7 +14,6 @@ namespace aula06.Entidades
         public DateTime DataAdmissao { get; set; }
         public ICollection<Dependente> Dependentes { get; set; }
         
-        
         public Funcionario()
         {
 
@@ -27,13 +26,10 @@ namespace aula06.Entidades
             Salario = salario;
             DataAdmissao = dataAdmissao;
         }
-
-
+        
         public override string ToString()
         {
             return string.Format($"Id: {Id}  Nome: {Nome}  Salario: {Salario} Admissão: {DataAdmissao}");
-        }
-
-        
+        }  
     }
 }

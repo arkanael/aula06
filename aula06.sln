@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Camada de Apresentaç
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula06.Entidades", "aula06.Entidades\aula06.Entidades.csproj", "{DA05E39B-AF2B-48CA-B680-7E32E85F462F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula06.apresentacao", "aula06.apresentacao\aula06.apresentacao.csproj", "{02D251FE-E8BD-499E-9488-DE5114565382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA05E39B-AF2B-48CA-B680-7E32E85F462F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D251FE-E8BD-499E-9488-DE5114565382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D251FE-E8BD-499E-9488-DE5114565382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D251FE-E8BD-499E-9488-DE5114565382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D251FE-E8BD-499E-9488-DE5114565382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 		{8C4C4826-EE6B-4E1A-9507-1FB453C87317} = {83958426-56D6-462A-8626-424D147609D7}
 		{CFFF8877-DE59-4C47-A7A5-CFFD3C80A8DF} = {83958426-56D6-462A-8626-424D147609D7}
 		{DA05E39B-AF2B-48CA-B680-7E32E85F462F} = {6AFA5CC5-9FC3-4D39-9884-4CAA7A2DC476}
+		{02D251FE-E8BD-499E-9488-DE5114565382} = {CFFF8877-DE59-4C47-A7A5-CFFD3C80A8DF}
 	EndGlobalSection
 EndGlobal
