@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace aula06.Entidades
 {
-    class Funcionario
+    public class Funcionario
     {
         public int Id { get; set; }
         public string Nome { get; set; }
         public decimal Salario { get; set; }
         public DateTime DataAdmissao { get; set; }
-
+        public ICollection<Dependente> Dependentes { get; set; }
+        
+        
         public Funcionario()
         {
 
