@@ -13,5 +13,37 @@ namespace aula06.apresentacao
         {
 
         }
+
+        protected void btnAcesso_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(ddlOpcoes.SelectedValue))
+            {
+                int opcao = int.Parse(ddlOpcoes.SelectedValue);
+
+                switch (opcao)
+                {
+                    case 1:
+                        Response.Redirect("/Pages/FuncionarioCadastro.aspx");
+                        break;
+                    case 2:
+                        Response.Redirect("/Pages/FuncionarioConsulta.aspx");
+                        break;
+
+                    case 3:
+                        Response.Redirect("/Pages/DependenteCadastro.aspx");
+                        break;
+
+                    case 4:
+                        Response.Redirect("/Pages/DependenteConsulta.aspx");
+                        break;
+                        
+                }
+            }
+            else
+            {
+                //Exibir mensagem para o usuario
+                lblMensagem.Text = "Selecione uma opção.";
+            }
+        }
     }
 }

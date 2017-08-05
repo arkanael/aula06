@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace aula06.apresentacao {
+namespace aula06.apresentacao.Pages {
     
     
-    public partial class Default {
+    public partial class FuncionarioCadastro {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,40 @@ namespace aula06.apresentacao {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ddlOpcoes control.
+        /// textNome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlOpcoes;
+        protected global::System.Web.UI.WebControls.TextBox textNome;
         
         /// <summary>
-        /// btnAcesso control.
+        /// txtSalario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAcesso;
+        protected global::System.Web.UI.WebControls.TextBox txtSalario;
+        
+        /// <summary>
+        /// txtDataAdmissao control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDataAdmissao;
+        
+        /// <summary>
+        /// btnCadastro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCadastro;
         
         /// <summary>
         /// lblMensagem control.
